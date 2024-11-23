@@ -3,6 +3,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include <stdint.h>
+#include <time.h>
 
 extern void imgCvtGrayIntToDouble(int numOfElements, uint8_t* intArr, double* doubleArr);
 
@@ -49,6 +50,23 @@ void printArray(int height, int width, double doubleArr[height][width])
 	}
 }
 
+void check(int height, int width, uint8_t intArr[height][width]) 
+{
+	int i, j;
+	
+	printf("\nCheck answer: \n\n");
+	for(i = 0; i < height; i++) 
+	{
+		for(j = 0; j < width; j++)
+		{
+			
+			double ans = intArr[i][j] / 255.0;
+			printf("%.2f ", ans);
+		}
+		printf("\n");
+	}
+}
+
 int main() 
 {
 	int height = 2;
@@ -63,8 +81,16 @@ int main()
 	fflush(stdin);
 	
 	getInput(height, width, intArr);
+	
+	clock_t start = clock();
 	imgCvtGrayIntToDouble(height * width, (uint8_t *)intArr, (double *)doubleArr);
+	clock_t end = clock();
+	
+   	double time_taken = (double)(end - start) / CLOCKS_PER_SEC;
+	printf("\nTime taken for ASM function: %lf\n", time_taken);
+	
 	printArray(height, width, doubleArr);
+	check(height, width, intArr);
 	
 	return 0;
 }
