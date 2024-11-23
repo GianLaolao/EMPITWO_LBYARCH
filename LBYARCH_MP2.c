@@ -59,7 +59,6 @@ void check(int height, int width, uint8_t intArr[height][width])
 	{
 		for(j = 0; j < width; j++)
 		{
-			
 			double ans = intArr[i][j] / 255.0;
 			printf("%.2f ", ans);
 		}
@@ -87,7 +86,7 @@ int main()
 	clock_t end = clock();
 	
    	double time_taken = (double)(end - start) / CLOCKS_PER_SEC;
-	printf("\nTime taken for ASM function: %lf\n", time_taken);
+	printf("\nTime taken for ASM function: %f\n", time_taken);
 	
 	printArray(height, width, doubleArr);
 	check(height, width, intArr);
