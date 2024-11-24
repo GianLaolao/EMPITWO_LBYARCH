@@ -66,6 +66,24 @@ void check(int height, int width, uint8_t intArr[height][width])
 	}
 }
 
+//void getAveTime(int totalElements, uint8_t* intArr, double* doubleArr) 
+//{
+//	double time_taken;
+//	int i;
+//	
+//	for(i = 0; i < 30; i++ ) {
+//		clock_t start = clock();
+//		imgCvtGrayIntToDouble(totalElements, intArr, doubleArr);
+//		clock_t end = clock();
+//		
+//		time_taken += (double)(end - start) / CLOCKS_PER_SEC;
+//	}
+//	
+//	time_taken = time_taken / 30.0;
+//	
+//	printf("\nAverage Time taken for ASM function: %.20lf\n", time_taken);
+//}
+
 int main() 
 {
 	int height = 2;
