@@ -1,4 +1,6 @@
 
+section .data
+constant dq 255.0
 
 section .text
 bits 64
@@ -12,9 +14,8 @@ global imgCvtGrayIntToDouble
 imgCvtGrayIntToDouble:
     
     XOR RBX, RBX
-    MOV RAX, 255
     VPXOR XMM0, XMM0
-    CVTSI2SD XMM0, RAX  
+    MOVSD XMM0, [constant]
     
     convert:
         XOR RAX, RAX
