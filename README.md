@@ -12,54 +12,53 @@ However, as the matrix size grows beyond 300x300, the execution time increases d
 Results varying in size below:
 
 <h1><b>100 x 100</b></h1>
-1st run <br>
-<br>
+**1st run **<br>
 Time taken for ASM function: 19.100000 x 10^6 ns <br>
 Average Time taken for ASM function: 11.693333 x 10^6 ns <br>
 <br>
-2nd run <br>
+**2nd run **<br>
 Time taken for ASM function: 17.500000 x 10^6 ns <br>
 Average Time taken for ASM function: 17.506667 x 10^6 ns <br>
 <br>
-3rd run <br> 
+**3rd run **<br> 
 Time taken for ASM function: 12.000000 x 10^6 ns <br>
 Average Time taken for ASM function: 11.683333 x 10^6 ns <br>
 <br>
-4th run <br>
+**4th run** <br>
 Time taken for ASM function: 17.500000 x 10^6 ns <br>
 Average Time taken for ASM function: 17.506667 x 10^6 ns <br>
 <br>
-5th run <br>
+**5th run** <br>
 Time taken for ASM function: 12.500000 x 10^6 ns <br>
 Average Time taken for ASM function: 17.310000 x 10^6 ns <br>
 <br>
 
 <h1><b>200 x 200</b></h1>
 <br>
-1st run <br>
+**1st run** <br>
 Time taken for ASM function: 48.700000 x 10^6 ns <br>
 Average Time taken for ASM function: 53.976667 x 10^6 ns <br>
 <br>
-2nd run <br>
+**2nd run** <br>
 Time taken for ASM function: 70.000000 x 10^6 ns <br>
 Average Time taken for ASM function: 65.856667 x 10^6 ns <br>
 <br>
-3rd run <br>
+**3rd run** <br>
 Time taken for ASM function: 70.600000 x 10^6 ns <br>
 Average Time taken for ASM function: 65.593333 x 10^6 ns <br>
 <br>
-4th run <br>
+**4th run** <br>
 Time taken for ASM function: 70.900000 x 10^6 ns <br>
 Average Time taken for ASM function: 61.360000 x 10^6 ns <br>
 <br>
-5th run <br>
+**5th run** <br>
 Time taken for ASM function: 69.900000 x 10^6 ns <br>
 Average Time taken for ASM function: 57.333333 x 10^6 ns <br>
 <br>
 
 <h1><b>300 x 300</b></h1>
 <br>
-1st run <br>
+**1st run** <br>
 Time taken for ASM function: 156.700000 x 10^6 ns <br>
 Average Time taken for ASM function: 105.276667 x 10^6 ns <br>
 <br>
@@ -78,7 +77,7 @@ Average Time taken for ASM function: 105.536667 x 10^6 ns <br>
 
 <h1><b>400 x 400</b></h1>
 <br>
-1st run <br>
+**1st run** <br>
 Time taken for ASM function: 282.700000 x 10^6 ns <br>
 Average Time taken for ASM function: 188.130000 x 10^6 ns <br>
 <br> 
@@ -108,10 +107,9 @@ Average Time taken for ASM function: 280.170000 x 10^6 ns </b>
 </b>
 
 <h1><b>480 x 480</b></h1>
-</b>
-Run time error. </b>
+<br>
+Run time error. <br>
 
 
-500 x 500
-
-Run time error.
+<h1><b>500 x 500</b></h1>
+Run time error. <be>
