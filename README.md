@@ -97,16 +97,16 @@ Average Time taken for ASM function: 199.163333 x 10^6 ns <br>
 <br>
 
 <h1><b>450 x 450</b></h1>
-</b>
-Time taken for ASM function: 244.000000 x 10^6 ns </b>
-Average Time taken for ASM function: 238.606667 x 10^6 ns </b>
-</b>
+<br>
+Time taken for ASM function: 244.000000 x 10^6 ns <br>
+Average Time taken for ASM function: 238.606667 x 10^6 ns <br>
+<br>
 
 <h1><b>475 x 475</b></h1>
 <br>
-Time taken for ASM function: 273.700000 x 10^6 ns </b>
-Average Time taken for ASM function: 280.170000 x 10^6 ns </b>
-</b>
+Time taken for ASM function: 273.700000 x 10^6 ns <br>
+Average Time taken for ASM function: 280.170000 x 10^6 ns <br>
+<br>
 
 <h1><b>480 x 480</b></h1>
 <br>
