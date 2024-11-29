@@ -34,7 +34,7 @@ Time taken for ASM function: 12.500000 x 10^6 ns <br>
 Average Time taken for ASM function: 17.310000 x 10^6 ns <br>
 <br>
 
-<h1>br>200 x 200</br></h1>
+<h1><b>200 x 200</b></h1>
 <br>
 1st run <br>
 Time taken for ASM function: 48.700000 x 10^6 ns <br>
