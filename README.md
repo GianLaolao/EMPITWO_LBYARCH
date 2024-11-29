@@ -11,100 +11,105 @@ However, as the matrix size grows beyond 300x300, the execution time increases d
 
 Results varying in size below:
 
-<h1><b>100 x 100</b></h1>h1>
-1st run /n
-Time taken for ASM function: 19.100000 x 10^6 ns /n
-Average Time taken for ASM function: 11.693333 x 10^6 ns
+<h1><b>100 x 100</b></h1>
+1st run <br>
+<br>
+Time taken for ASM function: 19.100000 x 10^6 ns <br>
+Average Time taken for ASM function: 11.693333 x 10^6 ns <br>
+<br>
+2nd run <br>
+Time taken for ASM function: 17.500000 x 10^6 ns <br>
+Average Time taken for ASM function: 17.506667 x 10^6 ns <br>
+<br>
+3rd run <br> 
+Time taken for ASM function: 12.000000 x 10^6 ns <br>
+Average Time taken for ASM function: 11.683333 x 10^6 ns <br>
+<br>
+4th run <br>
+Time taken for ASM function: 17.500000 x 10^6 ns <br>
+Average Time taken for ASM function: 17.506667 x 10^6 ns <br>
+<br>
+5th run <br>
+Time taken for ASM function: 12.500000 x 10^6 ns <br>
+Average Time taken for ASM function: 17.310000 x 10^6 ns <br>
+<br>
 
-2nd run
-Time taken for ASM function: 17.500000 x 10^6 ns
-Average Time taken for ASM function: 17.506667 x 10^6 ns
+<h1>br>200 x 200</br></h1>
+<br>
+1st run <br>
+Time taken for ASM function: 48.700000 x 10^6 ns <br>
+Average Time taken for ASM function: 53.976667 x 10^6 ns <br>
+<br>
+2nd run <br>
+Time taken for ASM function: 70.000000 x 10^6 ns <br>
+Average Time taken for ASM function: 65.856667 x 10^6 ns <br>
+<br>
+3rd run <br>
+Time taken for ASM function: 70.600000 x 10^6 ns <br>
+Average Time taken for ASM function: 65.593333 x 10^6 ns <br>
+<br>
+4th run <br>
+Time taken for ASM function: 70.900000 x 10^6 ns <br>
+Average Time taken for ASM function: 61.360000 x 10^6 ns <br>
+<br>
+5th run <br>
+Time taken for ASM function: 69.900000 x 10^6 ns <br>
+Average Time taken for ASM function: 57.333333 x 10^6 ns <br>
+<br>
 
-3rd run
-Time taken for ASM function: 12.000000 x 10^6 ns
-Average Time taken for ASM function: 11.683333 x 10^6 ns
+<h1><b>300 x 300</b></h1>
+<br>
+1st run <br>
+Time taken for ASM function: 156.700000 x 10^6 ns <br>
+Average Time taken for ASM function: 105.276667 x 10^6 ns <br>
+<br>
+Time taken for ASM function: 108.500000 x 10^6 ns <br>
+Average Time taken for ASM function: 115.826667 x 10^6 ns <br>
+<br>
+Time taken for ASM function: 158.300000 x 10^6 ns <br>
+Average Time taken for ASM function: 124.816667 x 10^6 ns <br>
+<br> 
+Time taken for ASM function: 107.400000 x 10^6 ns <br>
+Average Time taken for ASM function: 107.080000 x 10^6 ns <br>
+<br>
+Time taken for ASM function: 158.600000 x 10^6 ns <br>
+Average Time taken for ASM function: 105.536667 x 10^6 ns <br>
+<br>
 
-4th run
-Time taken for ASM function: 17.500000 x 10^6 ns
-Average Time taken for ASM function: 17.506667 x 10^6 ns
+<h1><b>400 x 400</b></h1>
+<br>
+1st run <br>
+Time taken for ASM function: 282.700000 x 10^6 ns <br>
+Average Time taken for ASM function: 188.130000 x 10^6 ns <br>
+<br> 
+Time taken for ASM function: 278.900000 x 10^6 ns <br>
+Average Time taken for ASM function: 209.820000 x 10^6 ns <br>
+<br>
+Time taken for ASM function: 283.000000 x 10^6 ns <br>
+Average Time taken for ASM function: 188.146667 x 10^6 ns <br>
+<br>
+Time taken for ASM function: 192.300000 x 10^6 ns <br>
+Average Time taken for ASM function: 221.133333 x 10^6 ns <br>
+<br>
+Time taken for ASM function: 281.100000 x 10^6 ns <br>
+Average Time taken for ASM function: 199.163333 x 10^6 ns <br>
+<br>
 
-5th run
-Time taken for ASM function: 12.500000 x 10^6 ns
-Average Time taken for ASM function: 17.310000 x 10^6 ns
+<h1><b>450 x 450</b></h1>
+</b>
+Time taken for ASM function: 244.000000 x 10^6 ns </b>
+Average Time taken for ASM function: 238.606667 x 10^6 ns </b>
+</b>
 
+<h1><b>475 x 475</b></h1>
+<br>
+Time taken for ASM function: 273.700000 x 10^6 ns </b>
+Average Time taken for ASM function: 280.170000 x 10^6 ns </b>
+</b>
 
-200 x 200
-
-1st run
-Time taken for ASM function: 48.700000 x 10^6 ns
-Average Time taken for ASM function: 53.976667 x 10^6 ns
-2nd run
-Time taken for ASM function: 70.000000 x 10^6 ns
-Average Time taken for ASM function: 65.856667 x 10^6 ns
-3rd run
-Time taken for ASM function: 70.600000 x 10^6 ns
-Average Time taken for ASM function: 65.593333 x 10^6 ns
-4th run
-Time taken for ASM function: 70.900000 x 10^6 ns
-Average Time taken for ASM function: 61.360000 x 10^6 ns
-5th run
-Time taken for ASM function: 69.900000 x 10^6 ns
-Average Time taken for ASM function: 57.333333 x 10^6 ns
-
-
-300 x 300
-
-1st run
-Time taken for ASM function: 156.700000 x 10^6 ns
-Average Time taken for ASM function: 105.276667 x 10^6 ns
-
-Time taken for ASM function: 108.500000 x 10^6 ns
-Average Time taken for ASM function: 115.826667 x 10^6 ns
-
-Time taken for ASM function: 158.300000 x 10^6 ns
-Average Time taken for ASM function: 124.816667 x 10^6 ns
-
-Time taken for ASM function: 107.400000 x 10^6 ns
-Average Time taken for ASM function: 107.080000 x 10^6 ns
-
-Time taken for ASM function: 158.600000 x 10^6 ns
-Average Time taken for ASM function: 105.536667 x 10^6 ns
-
-
-400 x 400
-
-1st run
-Time taken for ASM function: 282.700000 x 10^6 ns
-Average Time taken for ASM function: 188.130000 x 10^6 ns
-
-Time taken for ASM function: 278.900000 x 10^6 ns
-Average Time taken for ASM function: 209.820000 x 10^6 ns
-
-Time taken for ASM function: 283.000000 x 10^6 ns
-Average Time taken for ASM function: 188.146667 x 10^6 ns
-
-Time taken for ASM function: 192.300000 x 10^6 ns
-Average Time taken for ASM function: 221.133333 x 10^6 ns
-
-Time taken for ASM function: 281.100000 x 10^6 ns
-Average Time taken for ASM function: 199.163333 x 10^6 ns
-
-
-450 x 450
-
-Time taken for ASM function: 244.000000 x 10^6 ns
-Average Time taken for ASM function: 238.606667 x 10^6 ns
-
-
-475 x 475
-
-Time taken for ASM function: 273.700000 x 10^6 ns
-Average Time taken for ASM function: 280.170000 x 10^6 ns
-
-
-480 x 480
-
-run time error.
+<h1><b>480 x 480</b></h1>
+</b>
+Run time error. </b>
 
 
 500 x 500
