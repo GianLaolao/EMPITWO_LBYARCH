@@ -10,6 +10,12 @@ However, as the matrix size grows beyond 300x300, the execution time increases d
 <br>
 ![image](https://github.com/user-attachments/assets/ae03f1c7-0f8b-4df2-a0aa-32c8123c4078)
 
+Result of the sample input given in the specs:
+
+...
+
+
+
 
 Results varying in size below:
 

@@ -75,7 +75,7 @@ void check(int height, int width, uint8_t intArr[height][width]) {
         printf("\n");
     }
 }
-
+// Code to get the average time in nanoseconds.
 void getAveTime(int totalElements, uint8_t* intArr, double* doubleArr) {
     double total_time = 0.0;
     int i;
@@ -119,6 +119,8 @@ int main() {
             generateRandomInput(height, width, intArr);
 
         struct timespec start, end;
+
+        //Time gets recorded here for the single one run time recording.
         clock_gettime(CLOCK_MONOTONIC, &start);
         imgCvtGrayIntToDouble(height * width, (uint8_t *)intArr, (double *)doubleArr);
         clock_gettime(CLOCK_MONOTONIC, &end);
@@ -136,6 +138,7 @@ int main() {
 		printf("\n\n=====================================================================\n\n");
         printf("Time taken for ASM function: %f x 10^6 ns\n", time_taken * 1000000);
 
+        //Time gets recorded here again for average time.
         getAveTime(height * width, (uint8_t *)intArr, (double *)doubleArr);
 
         printf("Leave? ('y' to exit.):");
